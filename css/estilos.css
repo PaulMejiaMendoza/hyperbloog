@@ -1,22 +1,40 @@
 body
 {
-  color: grey;
-  text-align: right;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
-  margin: 8;
-  padding: 0;
+  color:grey;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
-#container
-{
-width: 70%;
-padding: 1em;
-text-align: left;
-border: 1px solid black;
-margin: 8px auto;
-
+#container {
+  width: 70%;
+  text-align: left;
+  padding: 1em;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-image: initial;
+  margin: 8px auto;
 }
-#container h1 
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+#cabecera
 {
-  font-size: 30px;
+  backface-visibility: #88f;
+  box-shadow: 0px 2px 50px 0px rgb(0,0,0,75);
+  color:blue;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em;
+}
+#cabecera #tagline
+{
+font-weight: normal;
+font-size: 0.8em;
+padding: 0 0 0 1em;
 }
